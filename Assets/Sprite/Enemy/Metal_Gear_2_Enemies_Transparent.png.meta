@@ -1,0 +1,3484 @@
+fileFormatVersion: 2
+guid: ff2b334c675d5495db467a172d7a5b64
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 293
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b910e37d92c4b789859ddacd2ef101
+      internalID: -2111549446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 294
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e475ac64640044a193130bf1228d9be
+      internalID: 1408571158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 293
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d96638880ae4a62b22e2588caa7d64
+      internalID: 777914602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 293
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555edcb847faa47fa99432dc7aa02f63
+      internalID: 430428952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_4
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 293
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a83b2b5143f42d5b41dd699342f286
+      internalID: 536308849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_5
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 294
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4363f602ea47b47b58b737c2b9aae6a0
+      internalID: 447043136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_6
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 293
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eabd28572feb49f59c79196ec560057
+      internalID: 734152184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_7
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 293
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b519838893acd41408d7e68e74b8fd66
+      internalID: 605597393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 293
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcacb90c5e2c4bacafb3b075d8edbb1
+      internalID: 873211418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 294
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3036b13e5726549a89a0caf58b24b4cb
+      internalID: -1760960718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 293
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca1778ce05534ed5811e44e780825a0
+      internalID: 2032237345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 293
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac9ef8d6f7c14247975750ad6bd0ad5
+      internalID: 859994501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_12
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 294
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8f22952d4684696866d30f3cf416b1
+      internalID: -377475519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 294
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e29d3afea3bd4efd9e22911f013afe1
+      internalID: 132385341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_14
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 294
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615e15c18301b47fc8a45970cf6f1c95
+      internalID: -1636474874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_15
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 294
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416b81357f4404478b0090286dc1174b
+      internalID: 1968134645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 253
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f549122d5edb9401ea4788f85c9e85b9
+      internalID: 1568272021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 254
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c175a063bd70949d48416c73500259f8
+      internalID: -692726138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 253
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 932d94c6d6aa64a3aad6d10116b017bd
+      internalID: 74603195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 253
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c957531c5ba0a4efda92262f2638731a
+      internalID: -1034305302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_20
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 253
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0c507336afb4e6e833f56c6d721440
+      internalID: -961318491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 254
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b855e2a1e5e024ad98702670a78062e3
+      internalID: 708288254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 253
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098fb5fe68b674a078e633aba1dbbdad
+      internalID: 206483999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_23
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 253
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86232a147750f4ad395e63d27fa1686d
+      internalID: -1228586665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_24
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 253
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0ea58bfe20448a0b11833a0de8635c
+      internalID: 1584443035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 254
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8202de43a6e09495085300061f734595
+      internalID: -1925541693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_26
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 253
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bf7430f297d432f96a96fe89f063b7
+      internalID: 1314794352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_27
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 253
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137d8e62dc04a413482e2181767a6c35
+      internalID: 1826241283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_28
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 254
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e085d9320ef714b05944e340ea48f1d9
+      internalID: -128823967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_29
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 254
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c684209346023413e90dcfac43bd82b3
+      internalID: -1001561510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_30
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 254
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76753bdd119046beab13fd17ea8c0ef
+      internalID: -1355801739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_31
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 254
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8563e9ad92b4d6aaf04e52c589957f
+      internalID: -341821912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 213
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247a95a39b7824b84985c6c5b407f589
+      internalID: -1482346052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_33
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 214
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad9871d944c44d03a793a057df0cc07
+      internalID: -217201727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 213
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cf583766eee4580ad7997edacd4479
+      internalID: 1128702929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_35
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 213
+        width: 13
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5c28c3594d940aa9335cceac2872f0
+      internalID: -2036997969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_36
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 213
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d7934cb519f4313a3842fb1ea25c16
+      internalID: 1923336785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_37
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 214
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617277c185db8407c947cf3bfd5cf862
+      internalID: 1579218485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_38
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 213
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff0b04629acc49c9b9c1eac57a88f8c
+      internalID: -995713723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_39
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 213
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed11e85ccead4248802dd6e80a7ea78
+      internalID: -766602357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 213
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec80debefdd624d2d9152086450849c5
+      internalID: 1919358908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 214
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1502198ba564b7fb19e08d8b8b532a
+      internalID: -457208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_42
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 213
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8956cef523fd24f508d34c7d449c8ce0
+      internalID: 91058398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_43
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 213
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088061189b68441b9ab323d9c587ba9b
+      internalID: -833707264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_44
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 214
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d36810472aa47f7926a98d319e579e
+      internalID: -1508672805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_45
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 214
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0edc26b773c44b19a66fdeb6c790108
+      internalID: 2103118821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_46
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 214
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674b1cd1ce3a546bd96f3b186aae3c0a
+      internalID: 481336365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_47
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 214
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3412ea8e9f7d9477a89dbc21a1b1f175
+      internalID: -472091258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 174
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb2936d700de452aacbbb8f1bffc07f
+      internalID: 161360131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_49
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 174
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464eaa8c0ecbc43b2b0b34cd015310b9
+      internalID: -2052870706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 174
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f148849ed42b34b9b9dd3711c79c4084
+      internalID: 923915077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_51
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 174
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc358f7f7bf42aca7ae082f135fb24
+      internalID: 1028799622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_52
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 174
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af80d1e1623d429babd5aeeb6163d84
+      internalID: 2126933736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 174
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5630b167c3f43deaaf0da477f3024f
+      internalID: -1550492395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_54
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 174
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc5f388dfe704f4f9751f572a31289c
+      internalID: 466872668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_55
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 186
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89929c17b2ce4aa788b360ee68ba7ba
+      internalID: -793480983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_56
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 181
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f8895fcb72343d2b3c98c1578daee9
+      internalID: -1739784617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_57
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 181
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fece12f153174f24a79233e61fffd7f
+      internalID: -1826690218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_58
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 181
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5062d0e9891a84e238c771f62fe49db9
+      internalID: -1076127940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_59
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 181
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fd6714a8252497fbbb7f1db6f1b39f
+      internalID: -1546972885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_60
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 181
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d3cf862eb394998b0a609094f8efcf
+      internalID: 1817966520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_61
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 183
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6526b62ea465f48c2a2af19c732d4ae8
+      internalID: -1952461479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_62
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 181
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f6c5fc4aec5403fa9cbf64f7349456
+      internalID: 879842932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_63
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 185
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ba7ca0b8c5e406c8ba90cfba6166b1
+      internalID: 890256071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_64
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 109
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136ad3d23232541309ac4f8057cffedb
+      internalID: -1136109653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_65
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 101
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35335ff4828c54c4292fad97bbf6e114
+      internalID: -839160010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_66
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 101
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8135c0af5bbc747389c187b3b4c90f94
+      internalID: 295439542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_67
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 101
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77acbb01098ba49219fa368cc1bc9a4a
+      internalID: 726826986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_68
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 101
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9f66846f75741c798a2ad7584d7415
+      internalID: -1286089560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_69
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 101
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc24d0880a0274b9e88b3c24754358d4
+      internalID: -188423768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_70
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 101
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b61379a5396c4de5a46aa7a151c8cf7
+      internalID: -121299872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_71
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 101
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc19ebc56d80a4c09a35406a726fddbc
+      internalID: -1213032843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_72
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 101
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c093c20f6d245da8ed220e0d6b6446
+      internalID: -740099952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_73
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 78
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee3f444f8625401eb1c19c1f691dc8d
+      internalID: -1750669527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_74
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 77
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2774755296034d5dab8f00ea7395b1b
+      internalID: 58785066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 80
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877c3095620664d65991dceececa8647
+      internalID: -1438625413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_76
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 81
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40967eb1e10c54b4da01db4485782850
+      internalID: -1323513189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_77
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 77
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae08342c1a344d4dad710a3f5383599
+      internalID: 1921432379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_78
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 77
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54dd53e0503c42eb88d5d6049c6fe0d
+      internalID: -428504433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_79
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 80
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbb66ba6ead945118172bbcd78d599b
+      internalID: 1574978910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_80
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 81
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1d68eee47d8414780f184f7d9bd124
+      internalID: -1179542140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_81
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 77
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f28a4470d1b48599fdf4074d77e7c5
+      internalID: -1150087336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_82
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 77
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c284ff9240344ddbd57a19f579ddca
+      internalID: 946505471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_83
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 77
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcae7b355c9aa4f14a03f7f2bb97e736
+      internalID: -2072661735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_84
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 77
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0fc3b37dcb5494eab738c70c7d322b
+      internalID: -1235993204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_85
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 45
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15930127c22e14780803b4d126fa0a8e
+      internalID: -904925893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_86
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a0d13420b5403cb234f60fc411319
+      internalID: -656507383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_87
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 51
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f919a4001bd9b4f798c3c7f402c3b6e1
+      internalID: -1278193353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_88
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 56
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069aa2b5f362e4583b9a1bd0b33eb148
+      internalID: -826366245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_89
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 45
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1e7c871c0ca47799f4f615ea5cbd74
+      internalID: 1341821174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_90
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 46
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e3297670ada4d0a8083c2ef6d2642c
+      internalID: 791073546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_91
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 45
+        width: 42
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea863d8abb0c946329da9ac0b600fdd1
+      internalID: -134898892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_92
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 42
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ab2071a7c3b432382e79b2c0269369
+      internalID: -1432858969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_93
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 42
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feda9a0a7925449c99973f2f78d86d22
+      internalID: -1782642914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_94
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 39
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aabdb1485c9d44a7bd249ec26d748e1
+      internalID: -132585748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_95
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 45
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d66fd30561d34f31b46871fd5290042
+      internalID: -885082793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_96
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33b129dc57084235a7ead3214ae16d6
+      internalID: -1390094608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_97
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a62db5d2f8d741fba9cf6511cf66e07
+      internalID: 746705415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_98
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc4e0438d8484e4f8ed3267b20ac93a
+      internalID: -1497681816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_99
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5030ae8c9ec87481f999c1991d183bf7
+      internalID: -45885702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_100
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c41c4af78d004076856ed59572f48ac
+      internalID: 1731506024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_101
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd662c6dfc0834675ab4b0eede03598f
+      internalID: 1574496215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_102
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 29
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407a0ed0a40b04491ad1096ec1b55f2e
+      internalID: -517589369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_103
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f954538ce304647eeab376a40d761cb8
+      internalID: -882571797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_104
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d9876a1691b4b9285b70aebc57dd6d
+      internalID: -823037220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_105
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a5bf8feba7644ed9ab5c22845f546d
+      internalID: -1521012110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_106
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c83d35c64b54fa093c2d650b9bc6d6
+      internalID: 926697702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_107
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e225e171d19f44fad8ea6bf1fb22c776
+      internalID: -1075162011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_108
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e120424185f044a4e9e019c11ac28ef3
+      internalID: 656804697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_109
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe30ac79e647c4874974db6b4cbe3468
+      internalID: 197829917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_110
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c52e3d992ea4e9f9c0266ca3b4dbe9
+      internalID: 2125854985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_111
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56a66ee0d7024215ba7d5547806c974
+      internalID: -294475352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_112
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0059b1ec8ee0e474e9c7663437444c41
+      internalID: 960010029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_113
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cff0843c1ffb4a51affe7902f7a5ca6
+      internalID: -910709615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_114
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a93e9d50f12f4980803a065a6fa8dbd
+      internalID: 1659060142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_115
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf38720092e794cc5b9f1b4465fafc0a
+      internalID: 114475986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_116
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d001880b0d44919a5df895b63b370a
+      internalID: -759054958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_117
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64c02172eca347ffb46442a84311479
+      internalID: -1319864104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_118
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0cc35e4149ee4bb6a13c5fa662c6503
+      internalID: 1742173674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_119
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0d030e7461840029d81d9fe75f19ef
+      internalID: -672775488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_120
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0410b403f56304d79966b24d5c332531
+      internalID: -557613625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_121
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d5be54288494b78988b313c5905ac0
+      internalID: 1963138697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_122
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 21
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10051a73df6994a5a933186bc13c176d
+      internalID: 50529086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_123
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821cd32fd4f34401a834d1248f374997
+      internalID: -1800716169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_124
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcab15526f624d0bb2eb13e5df6d8b8
+      internalID: 733822779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_125
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29981f15c29f54c35be6322dc6160961
+      internalID: -2075724269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_126
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2624a70c97ce4f6c823982861e4d10b
+      internalID: -228741329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_127
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac8d9d4b0cf34a5a931c4da8d489ce6
+      internalID: 1246373701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_128
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9d8a2d6928a4eb69305422bf076044
+      internalID: -1407366591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_129
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f10dc5500ce46449462a349f8ea7e7
+      internalID: 1792629603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d184fda08f4d04cd3997c0ce044ab949
+      internalID: 1363403462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_131
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 13
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e56c4d864f14e5c97eccee2ee21540
+      internalID: 85004705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_132
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ad0e69627f14222a471e8d1d8203f9
+      internalID: -1388921781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_133
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2163e0e9bd8e4585a5259edc6dead27
+      internalID: -1164898777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_134
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c3143f04b2041beb538533a986056b
+      internalID: -1499266086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_135
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6816934e0348480d9419c7e94eb08c2
+      internalID: -703392263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_136
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f1c18d3f3de442887e5a7785dc937b
+      internalID: 1410085094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_137
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0e9d56357554943bfa6084d77216e6
+      internalID: -233075559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_138
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab20d0b95e344556b99a378b60bf907
+      internalID: -1727074747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_139
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea96bc0ca867400485b64f288b22a30
+      internalID: -605313091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_140
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c75df83432c4a169a27aa36d74ba67
+      internalID: 798012165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_141
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3050bed0c5a85479882d43a68260b5f6
+      internalID: -1005245469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_142
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6ed6c0aaccc4cc8a0ea0a6a5c977b6
+      internalID: 469477001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_143
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f255c843e5c4817af69ea5c3471b11
+      internalID: -874393215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_144
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5419bce992e6474eb0725f36ced1136
+      internalID: -648828229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_145
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6765d18e51a514a95a465732c773afa7
+      internalID: 279031870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_146
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8884fa6343eb042f790c106584fd9ff1
+      internalID: -1449965129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_147
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0d406d72ee14069b494a1c98848d41
+      internalID: -1678488751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_148
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48400a5aa2ee746f79a6db683cf58856
+      internalID: -2085481954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_149
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ca11532d9c14b9daff062267645d9c
+      internalID: 1000426087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_150
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3243d0f383bd24d178d082f113bf381d
+      internalID: 19375317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Metal_Gear_2_Enemies_Transparent_151
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab0aeba494f44a1d8fb466643b1529a
+      internalID: 7008903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Metal_Gear_2_Enemies_Transparent_0: -2111549446
+      Metal_Gear_2_Enemies_Transparent_1: 1408571158
+      Metal_Gear_2_Enemies_Transparent_10: 2032237345
+      Metal_Gear_2_Enemies_Transparent_100: 1731506024
+      Metal_Gear_2_Enemies_Transparent_101: 1574496215
+      Metal_Gear_2_Enemies_Transparent_102: -517589369
+      Metal_Gear_2_Enemies_Transparent_103: -882571797
+      Metal_Gear_2_Enemies_Transparent_104: -823037220
+      Metal_Gear_2_Enemies_Transparent_105: -1521012110
+      Metal_Gear_2_Enemies_Transparent_106: 926697702
+      Metal_Gear_2_Enemies_Transparent_107: -1075162011
+      Metal_Gear_2_Enemies_Transparent_108: 656804697
+      Metal_Gear_2_Enemies_Transparent_109: 197829917
+      Metal_Gear_2_Enemies_Transparent_11: 859994501
+      Metal_Gear_2_Enemies_Transparent_110: 2125854985
+      Metal_Gear_2_Enemies_Transparent_111: -294475352
+      Metal_Gear_2_Enemies_Transparent_112: 960010029
+      Metal_Gear_2_Enemies_Transparent_113: -910709615
+      Metal_Gear_2_Enemies_Transparent_114: 1659060142
+      Metal_Gear_2_Enemies_Transparent_115: 114475986
+      Metal_Gear_2_Enemies_Transparent_116: -759054958
+      Metal_Gear_2_Enemies_Transparent_117: -1319864104
+      Metal_Gear_2_Enemies_Transparent_118: 1742173674
+      Metal_Gear_2_Enemies_Transparent_119: -672775488
+      Metal_Gear_2_Enemies_Transparent_12: -377475519
+      Metal_Gear_2_Enemies_Transparent_120: -557613625
+      Metal_Gear_2_Enemies_Transparent_121: 1963138697
+      Metal_Gear_2_Enemies_Transparent_122: 50529086
+      Metal_Gear_2_Enemies_Transparent_123: -1800716169
+      Metal_Gear_2_Enemies_Transparent_124: 733822779
+      Metal_Gear_2_Enemies_Transparent_125: -2075724269
+      Metal_Gear_2_Enemies_Transparent_126: -228741329
+      Metal_Gear_2_Enemies_Transparent_127: 1246373701
+      Metal_Gear_2_Enemies_Transparent_128: -1407366591
+      Metal_Gear_2_Enemies_Transparent_129: 1792629603
+      Metal_Gear_2_Enemies_Transparent_13: 132385341
+      Metal_Gear_2_Enemies_Transparent_130: 1363403462
+      Metal_Gear_2_Enemies_Transparent_131: 85004705
+      Metal_Gear_2_Enemies_Transparent_132: -1388921781
+      Metal_Gear_2_Enemies_Transparent_133: -1164898777
+      Metal_Gear_2_Enemies_Transparent_134: -1499266086
+      Metal_Gear_2_Enemies_Transparent_135: -703392263
+      Metal_Gear_2_Enemies_Transparent_136: 1410085094
+      Metal_Gear_2_Enemies_Transparent_137: -233075559
+      Metal_Gear_2_Enemies_Transparent_138: -1727074747
+      Metal_Gear_2_Enemies_Transparent_139: -605313091
+      Metal_Gear_2_Enemies_Transparent_14: -1636474874
+      Metal_Gear_2_Enemies_Transparent_140: 798012165
+      Metal_Gear_2_Enemies_Transparent_141: -1005245469
+      Metal_Gear_2_Enemies_Transparent_142: 469477001
+      Metal_Gear_2_Enemies_Transparent_143: -874393215
+      Metal_Gear_2_Enemies_Transparent_144: -648828229
+      Metal_Gear_2_Enemies_Transparent_145: 279031870
+      Metal_Gear_2_Enemies_Transparent_146: -1449965129
+      Metal_Gear_2_Enemies_Transparent_147: -1678488751
+      Metal_Gear_2_Enemies_Transparent_148: -2085481954
+      Metal_Gear_2_Enemies_Transparent_149: 1000426087
+      Metal_Gear_2_Enemies_Transparent_15: 1968134645
+      Metal_Gear_2_Enemies_Transparent_150: 19375317
+      Metal_Gear_2_Enemies_Transparent_151: 7008903
+      Metal_Gear_2_Enemies_Transparent_16: 1568272021
+      Metal_Gear_2_Enemies_Transparent_17: -692726138
+      Metal_Gear_2_Enemies_Transparent_18: 74603195
+      Metal_Gear_2_Enemies_Transparent_19: -1034305302
+      Metal_Gear_2_Enemies_Transparent_2: 777914602
+      Metal_Gear_2_Enemies_Transparent_20: -961318491
+      Metal_Gear_2_Enemies_Transparent_21: 708288254
+      Metal_Gear_2_Enemies_Transparent_22: 206483999
+      Metal_Gear_2_Enemies_Transparent_23: -1228586665
+      Metal_Gear_2_Enemies_Transparent_24: 1584443035
+      Metal_Gear_2_Enemies_Transparent_25: -1925541693
+      Metal_Gear_2_Enemies_Transparent_26: 1314794352
+      Metal_Gear_2_Enemies_Transparent_27: 1826241283
+      Metal_Gear_2_Enemies_Transparent_28: -128823967
+      Metal_Gear_2_Enemies_Transparent_29: -1001561510
+      Metal_Gear_2_Enemies_Transparent_3: 430428952
+      Metal_Gear_2_Enemies_Transparent_30: -1355801739
+      Metal_Gear_2_Enemies_Transparent_31: -341821912
+      Metal_Gear_2_Enemies_Transparent_32: -1482346052
+      Metal_Gear_2_Enemies_Transparent_33: -217201727
+      Metal_Gear_2_Enemies_Transparent_34: 1128702929
+      Metal_Gear_2_Enemies_Transparent_35: -2036997969
+      Metal_Gear_2_Enemies_Transparent_36: 1923336785
+      Metal_Gear_2_Enemies_Transparent_37: 1579218485
+      Metal_Gear_2_Enemies_Transparent_38: -995713723
+      Metal_Gear_2_Enemies_Transparent_39: -766602357
+      Metal_Gear_2_Enemies_Transparent_4: 536308849
+      Metal_Gear_2_Enemies_Transparent_40: 1919358908
+      Metal_Gear_2_Enemies_Transparent_41: -457208
+      Metal_Gear_2_Enemies_Transparent_42: 91058398
+      Metal_Gear_2_Enemies_Transparent_43: -833707264
+      Metal_Gear_2_Enemies_Transparent_44: -1508672805
+      Metal_Gear_2_Enemies_Transparent_45: 2103118821
+      Metal_Gear_2_Enemies_Transparent_46: 481336365
+      Metal_Gear_2_Enemies_Transparent_47: -472091258
+      Metal_Gear_2_Enemies_Transparent_48: 161360131
+      Metal_Gear_2_Enemies_Transparent_49: -2052870706
+      Metal_Gear_2_Enemies_Transparent_5: 447043136
+      Metal_Gear_2_Enemies_Transparent_50: 923915077
+      Metal_Gear_2_Enemies_Transparent_51: 1028799622
+      Metal_Gear_2_Enemies_Transparent_52: 2126933736
+      Metal_Gear_2_Enemies_Transparent_53: -1550492395
+      Metal_Gear_2_Enemies_Transparent_54: 466872668
+      Metal_Gear_2_Enemies_Transparent_55: -793480983
+      Metal_Gear_2_Enemies_Transparent_56: -1739784617
+      Metal_Gear_2_Enemies_Transparent_57: -1826690218
+      Metal_Gear_2_Enemies_Transparent_58: -1076127940
+      Metal_Gear_2_Enemies_Transparent_59: -1546972885
+      Metal_Gear_2_Enemies_Transparent_6: 734152184
+      Metal_Gear_2_Enemies_Transparent_60: 1817966520
+      Metal_Gear_2_Enemies_Transparent_61: -1952461479
+      Metal_Gear_2_Enemies_Transparent_62: 879842932
+      Metal_Gear_2_Enemies_Transparent_63: 890256071
+      Metal_Gear_2_Enemies_Transparent_64: -1136109653
+      Metal_Gear_2_Enemies_Transparent_65: -839160010
+      Metal_Gear_2_Enemies_Transparent_66: 295439542
+      Metal_Gear_2_Enemies_Transparent_67: 726826986
+      Metal_Gear_2_Enemies_Transparent_68: -1286089560
+      Metal_Gear_2_Enemies_Transparent_69: -188423768
+      Metal_Gear_2_Enemies_Transparent_7: 605597393
+      Metal_Gear_2_Enemies_Transparent_70: -121299872
+      Metal_Gear_2_Enemies_Transparent_71: -1213032843
+      Metal_Gear_2_Enemies_Transparent_72: -740099952
+      Metal_Gear_2_Enemies_Transparent_73: -1750669527
+      Metal_Gear_2_Enemies_Transparent_74: 58785066
+      Metal_Gear_2_Enemies_Transparent_75: -1438625413
+      Metal_Gear_2_Enemies_Transparent_76: -1323513189
+      Metal_Gear_2_Enemies_Transparent_77: 1921432379
+      Metal_Gear_2_Enemies_Transparent_78: -428504433
+      Metal_Gear_2_Enemies_Transparent_79: 1574978910
+      Metal_Gear_2_Enemies_Transparent_8: 873211418
+      Metal_Gear_2_Enemies_Transparent_80: -1179542140
+      Metal_Gear_2_Enemies_Transparent_81: -1150087336
+      Metal_Gear_2_Enemies_Transparent_82: 946505471
+      Metal_Gear_2_Enemies_Transparent_83: -2072661735
+      Metal_Gear_2_Enemies_Transparent_84: -1235993204
+      Metal_Gear_2_Enemies_Transparent_85: -904925893
+      Metal_Gear_2_Enemies_Transparent_86: -656507383
+      Metal_Gear_2_Enemies_Transparent_87: -1278193353
+      Metal_Gear_2_Enemies_Transparent_88: -826366245
+      Metal_Gear_2_Enemies_Transparent_89: 1341821174
+      Metal_Gear_2_Enemies_Transparent_9: -1760960718
+      Metal_Gear_2_Enemies_Transparent_90: 791073546
+      Metal_Gear_2_Enemies_Transparent_91: -134898892
+      Metal_Gear_2_Enemies_Transparent_92: -1432858969
+      Metal_Gear_2_Enemies_Transparent_93: -1782642914
+      Metal_Gear_2_Enemies_Transparent_94: -132585748
+      Metal_Gear_2_Enemies_Transparent_95: -885082793
+      Metal_Gear_2_Enemies_Transparent_96: -1390094608
+      Metal_Gear_2_Enemies_Transparent_97: 746705415
+      Metal_Gear_2_Enemies_Transparent_98: -1497681816
+      Metal_Gear_2_Enemies_Transparent_99: -45885702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
