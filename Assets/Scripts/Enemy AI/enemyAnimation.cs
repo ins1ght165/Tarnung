@@ -10,6 +10,10 @@ public class enemyAnimation : MonoBehaviour
     // keeping track of the last position and direction
     private Vector2 lastPosition;
     private Vector2 lastMovementDirection = Vector2.down;
+    
+    public Transform visionCone;
+    public Transform coneSprite; 
+
 
     void Start()
     {
@@ -40,6 +44,47 @@ public class enemyAnimation : MonoBehaviour
         if (isMoving)
         {
             lastMovementDirection = movementDirection;
+            
+            
+            // Cone Vision update
+            if (Mathf.Abs(lastMovementDirection.x) > Mathf.Abs(lastMovementDirection.y))
+            {
+                if (lastMovementDirection.x > 0)
+                {   // Right facing
+                    // Using Unity's built in rotation system = Quaternion.Euler 
+                    // We always have to ad +90 to the angle since our initial position of the cone is facing downwards. (default would be right facing)
+                    visionCone.rotation = Quaternion.Euler(0f, 0f, 0f + 90f); 
+                    // Manaually adjusted the coordinates to fit it perfecrtly in front of the gameobject
+                    coneSprite.localPosition = new Vector3(0.8f, -3f, 0f);
+                }
+                else
+                {
+                    // Using the same logic for every direction:
+                    //Left facing
+                    visionCone.rotation = Quaternion.Euler(0f, 0f, 180f + 90f); 
+                    coneSprite.localPosition = new Vector3(-0.8f, -3f, 0f);
+                }
+            }
+            else
+            {
+               // For up or downward movements
+                if (lastMovementDirection.y > 0)
+                {
+                    // Upwards
+                    visionCone.rotation = Quaternion.Euler(0f, 0f, 90f + 90f); 
+                    coneSprite.localPosition = new Vector3(0f, -2f, 0f);
+                }
+                else
+                {
+                    // Downwards
+                    visionCone.rotation = Quaternion.Euler(0f, 0f, 270f + 90f); 
+                    coneSprite.localPosition = new Vector3(0f, -3.5f, 0f);
+                }
+            }
+
+
+
+
         }
         else
         {
@@ -49,5 +94,6 @@ public class enemyAnimation : MonoBehaviour
         }
 
         lastPosition = currentPosition;
+
     }
 }

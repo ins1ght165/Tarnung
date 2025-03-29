@@ -27,6 +27,7 @@ public class Patrolling : MonoBehaviour
         {
             StartCoroutine(switchWaypoint());
         }
+        
     }
     
     // Switching waypoint function
