@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/Start Screen.unity
+    guid: 3884d4c6690a64c5ab87a23b506e3250
+  - enabled: 1
     path: Assets/Scenes/Login.unity
     guid: 7c7646d192cd24b2ab86c8c703ada5da
   - enabled: 1
@@ -17,6 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: 7d20991397c474c17be18cc822d58c49
+  - enabled: 1
+    path: Assets/Scenes/Level Summary.unity
+    guid: 4ea957282d0744152b33964b608f7722
+  - enabled: 1
+    path: Assets/Scenes/Level Select.unity
+    guid: fb3d99d5b622c4dbf94430d52436bb6d
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 9919c6d3d994f4626b32bf63780ff9ce
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 415538fab50de4782a8874b614087711
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d60f1d3f4347f4ea6a2de3a861a06b4e, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 45c639efc6315448497b6b6187de6344, type: 2}

@@ -3,6 +3,8 @@ using UnityEngine.Video;
 
 public class mainBackgroundVid : MonoBehaviour
 {
+    // Making it possible to assing a video from the inspector
+    public VideoClip videoClip;
     void Start()
     {
         // Attaching videoplayer to camera
@@ -11,8 +13,8 @@ public class mainBackgroundVid : MonoBehaviour
         // VideoPlayer targeting backplane of camera
         var videoPlayer = camera.AddComponent<UnityEngine.Video.VideoPlayer>();
     
-        // Specifying the path of the video
-        videoPlayer.url = "/Users/yousefnaiem/Desktop/Tarnung/Background/MGS title menu background animation.mp4";
+        // Assigning video fetched from the inspector
+        videoPlayer.clip = videoClip;
         
         // Looping the video when it's done
         videoPlayer.isLooping = true;

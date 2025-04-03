@@ -15,6 +15,8 @@ public class Patrolling : MonoBehaviour
     // Checking if the enemy is currently moving
     private bool isMoving;
 
+    public float waitTime;
+
     void Update()
     {
         
@@ -38,7 +40,7 @@ public class Patrolling : MonoBehaviour
         isMoving = true;  
          // Adding the delay before moving to the next target
          // This is very common in stealth games
-        yield return new WaitForSeconds(5f); 
+        yield return new WaitForSeconds(waitTime); 
 
         // Updating the index and once we reach the end we will set it back to the very first index again
         currentWaypointIndex = (currentWaypointIndex + 1) % waypoints.Length;
