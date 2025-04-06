@@ -9,29 +9,44 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Start Screen.unity
+    path: Assets/Scenes/Menu/Start Screen.unity
     guid: 3884d4c6690a64c5ab87a23b506e3250
   - enabled: 1
-    path: Assets/Scenes/Login.unity
+    path: Assets/Scenes/Menu/Login.unity
     guid: 7c7646d192cd24b2ab86c8c703ada5da
   - enabled: 1
-    path: Assets/Scenes/LevelOne.unity
+    path: Assets/Scenes/Levels/LevelOne.unity
     guid: c2be75f7a025b49f28ec61964c1f5bba
   - enabled: 1
-    path: Assets/Scenes/Game Over.unity
+    path: Assets/Scenes/Levels/Game Over.unity
     guid: 7d20991397c474c17be18cc822d58c49
   - enabled: 1
-    path: Assets/Scenes/Level Summary.unity
+    path: Assets/Scenes/Levels/Level Summary.unity
     guid: 4ea957282d0744152b33964b608f7722
   - enabled: 1
-    path: Assets/Scenes/Level Select.unity
+    path: Assets/Scenes/Menu/Level Select.unity
     guid: fb3d99d5b622c4dbf94430d52436bb6d
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/Menu/Main Menu.unity
     guid: 9919c6d3d994f4626b32bf63780ff9ce
   - enabled: 1
-    path: Assets/Scenes/Settings.unity
+    path: Assets/Scenes/Menu/Settings.unity
     guid: 415538fab50de4782a8874b614087711
+  - enabled: 1
+    path: Assets/Scenes/Levels/LevelTwo.unity
+    guid: 76dbbd45c79fb4784aac9839d0ba0513
+  - enabled: 1
+    path: Assets/Scenes/Levels/LevelThree.unity
+    guid: 4a5b8e091b300441c8f37648ce30d1fd
+  - enabled: 1
+    path: Assets/Scenes/Levels/Suit Room.unity
+    guid: d8d219590ca3643b4b88ead4580cdcf5
+  - enabled: 1
+    path: Assets/Scenes/Levels/Final.unity
+    guid: 6b01fa3c6fffa4e7d868c125bcd40227
+  - enabled: 1
+    path: Assets/Scenes/Levels/Key Room.unity
+    guid: 2fe00830ca0c84db48febc378700990a
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d60f1d3f4347f4ea6a2de3a861a06b4e, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 45c639efc6315448497b6b6187de6344, type: 2}

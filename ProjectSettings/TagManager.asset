@@ -51,6 +51,9 @@ TagManager:
   - name: Walls
     uniqueID: 2720491717
     locked: 0
+  - name: Wall Line Office
+    uniqueID: 3798692007
+    locked: 0
   - name: Pits
     uniqueID: 686009779
     locked: 0

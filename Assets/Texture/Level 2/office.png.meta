@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,9 +126,9 @@ TextureImporter:
       name: office_0
       rect:
         serializedVersion: 2
-        x: 377
+        x: 384
         y: 804
-        width: 205
+        width: 193
         height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -147,9 +147,9 @@ TextureImporter:
       name: office_1
       rect:
         serializedVersion: 2
-        x: 186
+        x: 190
         y: 804
-        width: 206
+        width: 194
         height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -168,9 +168,9 @@ TextureImporter:
       name: office_2
       rect:
         serializedVersion: 2
-        x: 762
+        x: 768
         y: 804
-        width: 262
+        width: 256
         height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -206,6 +206,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: office_4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 365
+        width: 127
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcbf77e2b4922411e88a1a97cf4bb8d4
+      internalID: 597002510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: office_5
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 654
+        width: 167
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4cfac35ec1e4e7aa1267e848c2e85f
+      internalID: -133557961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -221,6 +263,8 @@ TextureImporter:
       office_1: -1532257664
       office_2: -1451871753
       office_3: 1212964211
+      office_4: 597002510
+      office_5: -133557961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

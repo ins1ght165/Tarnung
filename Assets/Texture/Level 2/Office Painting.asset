@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Office Painting
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 689253655, guid: 2b389e12de1484556887d13f078c73a5, type: 3}
+  m_Sprite: {fileID: -133557961, guid: 6774b72976f414518b149426d5b9e5c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
