@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d93f788343ada4343b488a8ec41f82de
+guid: 285e92fca81c648ba8d734da6e3b6f6f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,55 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 257804_0
+      name: PlayStation 2 - Metal Gear Solid 3 Subsistance - Solid Snake_0
       rect:
         serializedVersion: 2
-        x: 521
-        y: 604
-        width: 254
-        height: 190
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8dbd77e0d47f4fda9bce73cf78d90cd
-      internalID: -772728101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 257804_1
-      rect:
-        serializedVersion: 2
-        x: 262
-        y: 409
-        width: 254
-        height: 190
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e2e0a16576124ec0a4b38d3c5a9fefa
-      internalID: -735250271
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 257804_2
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 838
-        width: 193
-        height: 160
+        x: 661
+        y: 320
+        width: 66
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +137,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8d609bdb141b4fe1a6b56e8830d798e
-      internalID: 1081900121
+      spriteID: 9bd448cb5c58647d9951d9cfca8dcca5
+      internalID: 904316617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayStation 2 - Metal Gear Solid 3 Subsistance - Solid Snake_1
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 216
+        width: 172
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d4173da920648bd9ce039a84327f25
+      internalID: -165822524
       vertices: []
       indices: 
       edges: []
@@ -196,9 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      257804_0: -772728101
-      257804_1: -735250271
-      257804_2: 1081900121
+      PlayStation 2 - Metal Gear Solid 3 Subsistance - Solid Snake_0: 904316617
+      PlayStation 2 - Metal Gear Solid 3 Subsistance - Solid Snake_1: -165822524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
