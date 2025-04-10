@@ -18,6 +18,9 @@ public class playerMovement : MonoBehaviour
 
     private Vector2 lastMovementDirection = Vector2.down; 
     
+    private bool moveUp, moveDown, moveLeft, moveRight;
+
+    
     void Start()
     {
         // Geting the Rigidbody2D component so that we can modify it
@@ -25,14 +28,40 @@ public class playerMovement : MonoBehaviour
         
         // Getting the animator component 
         animator = GetComponent<Animator>();
+        
+        
+
     }
+    
+    public void PressUp() => moveUp = true;
+    public void ReleaseUp() => moveUp = false;
+
+    public void PressDown() => moveDown = true;
+    public void ReleaseDown() => moveDown = false;
+
+    public void PressLeft() => moveLeft = true;
+    public void ReleaseLeft() => moveLeft = false;
+
+    public void PressRight() => moveRight = true;
+    public void ReleaseRight() => moveRight = false;
 
     // Update is called once per frame
     void Update()
     {
         
+        // Keyboard fallback
         horizontalMove = Input.GetAxisRaw("Horizontal");
         verticalMove = Input.GetAxisRaw("Vertical");
+
+        // Override with on-screen button input if active
+        if (moveLeft) horizontalMove = -1;
+        else if (moveRight) horizontalMove = 1;
+        else if (moveUp || moveDown) horizontalMove = 0; // prevent diagonal
+
+        if (moveUp) verticalMove = 1;
+        else if (moveDown) verticalMove = -1;
+        else if (moveLeft || moveRight) verticalMove = 0; // prevent diagonal
+
         
         // Preventing the player from moving diagonally
         // Since we only have animations for vertical and horizontal movements

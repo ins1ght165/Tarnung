@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UI; 
+
 
 public class PlayerCamouflage : MonoBehaviour
 {
@@ -20,6 +22,10 @@ public class PlayerCamouflage : MonoBehaviour
     
     private Rigidbody2D rb;
     private Vector2 lastPosition;
+    
+    public Button cloakButton;
+
+
 
     void Start()
     {
@@ -27,16 +33,20 @@ public class PlayerCamouflage : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         lastPosition = rb.position;
     }
+    
+    // If we meet the requirements we call the enable the camouflage
+    // Also made it into a public method so we can call this function using a button in the UI
+    public void triggerCamouflage()
+    {
+        if (isNearWall && !isOnCooldown && !isCamouflaged)
+        {
+            enableCamouflage();
+            SetButtonOpacity(1f);
+        }
+    }
 
     void Update()
     {
-        // If we meet the requirements we call the enable the camouflage
-        if (Input.GetKeyDown(activateKey) && isNearWall && !isOnCooldown && !isCamouflaged)
-        {
-            enableCamouflage();
-        }
-
-        
         // Check if player is camouflaged AND moved from last frame
         if (isCamouflaged)
         {
@@ -101,6 +111,7 @@ public class PlayerCamouflage : MonoBehaviour
         {
             isCamouflaged = false;
             animator.SetBool("isCamo", false);
+            SetButtonOpacity(0.6f);
         }
 
         // Camouflage duration and cooldown timer
@@ -110,5 +121,22 @@ public class PlayerCamouflage : MonoBehaviour
             yield return new WaitForSeconds(cooldownDuration);
             isOnCooldown = false;
         }
+        
+        // Helper function to set the opacity of the UI buttons
+        void SetButtonOpacity(float alpha)
+        {
+            if (cloakButton != null)
+            {
+                Image img = cloakButton.GetComponent<Image>();
+                if (img != null)
+                {
+                    Color c = img.color;
+                    c.a = alpha;
+                    img.color = c;
+                }
+            }
+        }
+
+
     
 }

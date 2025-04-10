@@ -183,7 +183,7 @@ MonoBehaviour:
   m_text: Tarnung
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
-  m_sharedMaterial: {fileID: 2100000, guid: f2dcf029949142e28b974630369c8b4e, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -468,6 +468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e0d749c24a7b4c819bfd0771114ddb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  musicSource: {fileID: 513964868}
 --- !u!82 &513964868
 AudioSource:
   m_ObjectHideFlags: 0
