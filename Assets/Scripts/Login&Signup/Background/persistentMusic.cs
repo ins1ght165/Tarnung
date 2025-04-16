@@ -13,7 +13,7 @@ public class PersistentMusic : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "Main Menu" || scene.name == "Start Screen" || scene.name == "Login" || scene.name == "Level Select")
+        if (scene.name == "Main Menu" || scene.name == "Start Screen" || scene.name == "Login" || scene.name == "Level Select" || scene.name == "Signup")
         {
             if (!musicSource.isPlaying)
                 musicSource.Play();

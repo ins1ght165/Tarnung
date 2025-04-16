@@ -9,9 +9,11 @@ public class StatDisplayment : MonoBehaviour
 
     // In the inspector we can assign our text and image components so we can design it in the scene
     [SerializeField] private TextMeshProUGUI timeText;
-    [SerializeField] private Image[] stars; 
+    [SerializeField] private Image[] stars;
     [SerializeField] private Sprite fullStar;
     [SerializeField] private Sprite emptyStar;
+    [SerializeField] private TextMeshProUGUI newRecordText;
+
 
     void Start()
     {
@@ -27,14 +29,29 @@ public class StatDisplayment : MonoBehaviour
         int starCount = 1;
         if (finalTime < 60f) starCount = 3;
         else if (finalTime < 80f) starCount = 2;
-        
-        
+
+
         // This for loop will automatically loop trough each star
         // If we our index is still shorter than the stars earned the we will assign a full star otherwise it will just be a empty star
         for (int i = 0; i < stars.Length; i++)
         {
             stars[i].sprite = i < starCount ? fullStar : emptyStar;
         }
+        
+        string levelName = PlayerPrefs.GetString("lastPlayedLevel", "UnknownLevel");
+        
+        // We will submit the score 
+        // The score will automatically be update in a different file if faster/better
+        StartCoroutine(NetworkManager.Instance.SubmitScore(levelName, starCount, finalTime, (response) =>
+        {
+            // If we get a response that the score was submitted and also update (better score)
+            // Display a message with "new record"
+            if (response.Contains("Score updated"))
+            {
+                newRecordText.text = "New Record!";
+                newRecordText.color = Color.red;
+            }
+        }));
     }
 }
 

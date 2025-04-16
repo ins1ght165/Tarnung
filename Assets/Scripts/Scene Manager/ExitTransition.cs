@@ -18,6 +18,8 @@ public class ExitTransition : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            string currentLevel = SceneManager.GetActiveScene().name;
+            PlayerPrefs.SetString("lastPlayedLevel", currentLevel);
             // Saving the completion time of the level before loading to the next scene
             if (timer != null)
                 timer.SaveTime(); 
