@@ -51,6 +51,11 @@ public class StatDisplayment : MonoBehaviour
                 newRecordText.text = "New Record!";
                 newRecordText.color = Color.red;
             }
+            else if (response.Contains("HTTP Error") || response.Contains("Failed") || response.Contains("error"))
+            {
+                Debug.LogWarning("⚠️ Online submission failed. Saving locally instead.");
+                SaveLocally.SaveLevelProgress(levelName, starCount, finalTime);
+            }
         }));
     }
 }

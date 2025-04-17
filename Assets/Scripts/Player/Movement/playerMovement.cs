@@ -33,6 +33,8 @@ public class playerMovement : MonoBehaviour
 
     }
     
+    // Based on the UI button pressed we set the boolean values. 
+    // So if we are pressing a button = true : false
     public void PressUp() => moveUp = true;
     public void ReleaseUp() => moveUp = false;
 

@@ -1,10 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI; 
+using System.Collections;
+using System.Collections.Generic;
+
 
 
 public class PlayerCamouflage : MonoBehaviour
 {
     private Animator animator;
+    
     
     // Initializing different states that need to be tracked
     private bool isNearWall = false;
@@ -24,6 +28,9 @@ public class PlayerCamouflage : MonoBehaviour
     private Vector2 lastPosition;
     
     public Button cloakButton;
+    
+    private AudioSource audioSource;
+
 
 
 
@@ -32,6 +39,7 @@ public class PlayerCamouflage : MonoBehaviour
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         lastPosition = rb.position;
+        audioSource = GetComponent<AudioSource>();
     }
     
     // If we meet the requirements we call the enable the camouflage
@@ -103,6 +111,18 @@ public class PlayerCamouflage : MonoBehaviour
                 isCamouflaged = true;
                 // Swapping the sprite
                 animator.SetBool("isCamo", true);
+            }
+            
+            // Triggering a rumble effect if vibration is enabled
+            if (PlayerPrefs.GetInt("vibration", 1) == 1)
+            {
+                Handheld.Vibrate();
+            }
+            
+            // Playing a sound effect when entering camouflage
+            if (audioSource != null)
+            {
+                audioSource.Play();
             }
         }
 

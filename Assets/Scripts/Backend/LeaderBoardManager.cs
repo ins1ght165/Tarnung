@@ -39,16 +39,38 @@ public class LeaderboardManager : MonoBehaviour
 
     public void ShowLeaderboard(string levelName)
     {
-        StartCoroutine(NetworkManager.Instance.GetLeaderboard(levelName, OnLeaderboardReceived));
+        StartCoroutine(NetworkManager.Instance.GetLeaderboard(levelName, (entries) =>
+        {
+            if (entries == null)
+            {
+                Debug.Log("No leaderboard data received. Loading local data instead.");
+                ShowLocalLeaderboard(levelName);
+                return;
+            }
+
+            PopulateLeaderboard(entries);
+        }));
     }
 
-    private void OnLeaderboardReceived(LeaderboardEntry[] entries)
+    private void PopulateLeaderboard(LeaderboardEntry[] entries)
     {
-        if (entries == null)
+        // Clear old entries
+        foreach (Transform child in leaderboardParent)
         {
-            Debug.Log("No leaderboard data received.");
-            return;
+            Destroy(child.gameObject);
         }
+
+        for (int i = 0; i < entries.Length; i++)
+        {
+            GameObject entry = Instantiate(leaderboardEntryPrefab, leaderboardParent);
+            TMP_Text text = entry.GetComponent<TMP_Text>();
+            text.text = $"{i + 1}. {entries[i].username} - {entries[i].rating} stars - {entries[i].time:F1} sec";
+        }
+    }
+
+    private void ShowLocalLeaderboard(string levelName)
+    {
+        var localProgress = SaveLocally.GetLevelProgress(levelName);
 
         // Clear old entries
         foreach (Transform child in leaderboardParent)
@@ -56,12 +78,8 @@ public class LeaderboardManager : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        // Populate leaderboard
-        for (int i = 0; i < entries.Length; i++)
-        {
-            GameObject entry = Instantiate(leaderboardEntryPrefab, leaderboardParent);
-            TMP_Text text = entry.GetComponent<TMP_Text>();
-            text.text = $"{i + 1}. {entries[i].username} - {entries[i].rating} stars - {entries[i].time} sec";
-        }
+        GameObject entry = Instantiate(leaderboardEntryPrefab, leaderboardParent);
+        TMP_Text text = entry.GetComponent<TMP_Text>();
+        text.text = $"Local Record - {localProgress.stars} stars - {localProgress.time:F1} sec";
     }
-}
+} 
