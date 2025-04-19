@@ -1,31 +1,13 @@
 using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
-using UnityEngine.UI;
-using TMPro;
-using System.Text;
 using System;
-
-
-
+using System.Text;
 
 public class NetworkManager : MonoBehaviour
 {
-    
-    private void Awake()
-    {
-        if (_instance == null)
-        {
-            _instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject); 
-        }
-    }
     private static NetworkManager _instance;
-    private string serverUrl = "http://localhost:3000"; 
+    private string serverUrl = "http://localhost:3000";
 
     public static NetworkManager Instance
     {
@@ -37,35 +19,31 @@ public class NetworkManager : MonoBehaviour
                 _instance = obj.AddComponent<NetworkManager>();
                 DontDestroyOnLoad(obj);
             }
-
             return _instance;
         }
     }
 
-// Register a new user
-    public IEnumerator RegisterUser(string username, string email, string password, System.Action<string> callback)
+    private void Awake()
+    {
+        if (_instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    public IEnumerator RegisterUser(string username, string email, string password, System.Action<string, bool> callback)
     {
         string jsonData = $"{{\"username\":\"{username}\", \"email\":\"{email}\", \"password\":\"{password}\"}}";
+        Debug.Log("Sending Register JSON: " + jsonData);
+
         using (UnityWebRequest request = new UnityWebRequest(serverUrl + "/register", "POST"))
         {
             byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
-            request.uploadHandler = new UploadHandlerRaw(bodyRaw);
-            request.downloadHandler = new DownloadHandlerBuffer();
-            request.SetRequestHeader("Content-Type", "application/json");
-
-            yield return request.SendWebRequest();
-            callback(request.result == UnityWebRequest.Result.Success ? request.downloadHandler.text : request.error);
-        }
-    }
-    
-    public IEnumerator LoginUser(string emailOrUsername, string password, Action<string, bool> callback)
-    {
-        string jsonData = $"{{\"emailOrUsername\":\"{emailOrUsername}\", \"password\":\"{password}\"}}";
-        Debug.Log("Sending Login JSON: " + jsonData);
-
-        using (UnityWebRequest request = new UnityWebRequest(serverUrl + "/login", "POST"))
-        {
-            byte[] bodyRaw = Encoding.UTF8.GetBytes(jsonData);
             request.uploadHandler = new UploadHandlerRaw(bodyRaw);
             request.downloadHandler = new DownloadHandlerBuffer();
             request.SetRequestHeader("Content-Type", "application/json");
@@ -84,86 +62,40 @@ public class NetworkManager : MonoBehaviour
     }
 
     
-    
-    
-//to register new user
-
-    public TMP_InputField usernameInput;
-    public TMP_InputField emailInput;
-    public TMP_Text resultText;
-    public TMP_InputField passwordInput;
-    
-    // Login a user in
-    
-    public TMP_InputField loginNameOrEmailInput;
-    public TMP_InputField loginPasswordInput;
-    public TMP_Text loginResultText;
 
 
-    public void RegisterUser()
+    public IEnumerator LoginUser(string emailOrUsername, string password, Action<string, bool> callback)
     {
-        string username = usernameInput.text;
-        string email = emailInput.text;
-        string password = passwordInput.text.Trim();
+        string jsonData = $"{{\"emailOrUsername\":\"{emailOrUsername}\", \"password\":\"{password}\"}}";
+        Debug.Log("Sending Login JSON: " + jsonData);
 
-        StartCoroutine(NetworkManager.Instance.RegisterUser(username, email, password, (response) =>
+        using (UnityWebRequest request = new UnityWebRequest(serverUrl + "/login", "POST"))
         {
-            if (response.Contains("error") || response.Contains("Failed to connect") || response.Contains("Cannot connect"))
+            byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
+            request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+            request.downloadHandler = new DownloadHandlerBuffer();
+            request.SetRequestHeader("Content-Type", "application/json");
+
+            yield return request.SendWebRequest();
+
+            if (request.result != UnityWebRequest.Result.Success)
             {
-                resultText.text = "Failed to register (server offline?)";
-                Debug.LogError("Register failed: " + response);
+                callback($"HTTP Error {request.responseCode}: {request.error}", false);
             }
             else
             {
-                resultText.text = "Register Success";
-                Debug.Log("Register Success: " + response);
+                callback(request.downloadHandler.text, true);
             }
-        }));
-    }
-    
-    public void LoginUser()
-    {
-        string input = loginNameOrEmailInput.text.Trim();
-        string password = loginPasswordInput.text.Trim();
-
-        if (string.IsNullOrEmpty(input) || string.IsNullOrEmpty(password))
-        {
-            loginResultText.text = "All fields required";
-            return;
         }
-
-        StartCoroutine(LoginUser(input, password, (response, success) =>
-        {
-            if (!success || response.Contains("error"))
-            {
-                loginResultText.text = "Login failed: " + response;
-                Debug.LogError("Login failed: " + response);
-            }
-            else
-            {
-                loginResultText.text = "Login successful!";
-                Debug.Log("Login success: " + response);
-                
-                // Parse the user info
-                LoggedInUser user = JsonUtility.FromJson<LoggedInUser>(response);
-                PlayerPrefs.SetInt("userID", user.user.id); 
-                PlayerPrefs.SetString("username", user.user.username);
-                PlayerPrefs.SetString("email", user.user.email);
-
-               
-                // Loading next scene if succesfull
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu"); 
-            }
-        }));
     }
-    
-    [System.Serializable]
+
+    [Serializable]
     public class LoggedInUser
     {
         public User user;
     }
 
-    [System.Serializable]
+    [Serializable]
     public class User
     {
         public int id;
@@ -171,9 +103,7 @@ public class NetworkManager : MonoBehaviour
         public string email;
     }
 
-    
-    // Leaderboard
-    public IEnumerator GetLeaderboard(string levelName, System.Action<LeaderboardManager.LeaderboardEntry[]> callback)
+    public IEnumerator GetLeaderboard(string levelName, Action<LeaderboardManager.LeaderboardEntry[]> callback)
     {
         string url = $"{serverUrl}/leaderboard/{levelName}";
         using (UnityWebRequest request = UnityWebRequest.Get(url))
@@ -194,9 +124,8 @@ public class NetworkManager : MonoBehaviour
             }
         }
     }
-    
-    // Score 
-    public IEnumerator SubmitScore(string levelName, int rating, float time, System.Action<string> callback)
+
+    public IEnumerator SubmitScore(string levelName, int rating, float time, Action<string> callback)
     {
         int userId = PlayerPrefs.GetInt("userID", -1);
         if (userId == -1)
@@ -227,12 +156,12 @@ public class NetworkManager : MonoBehaviour
             }
         }
     }
+
     public void SubmitPlayerScore(string levelName, int rating, float time)
     {
         StartCoroutine(SubmitScore(levelName, rating, time, (response) =>
         {
-            Debug.Log("🔥 Score response: " + response);
+            Debug.Log("Score response: " + response);
         }));
     }
-
 }

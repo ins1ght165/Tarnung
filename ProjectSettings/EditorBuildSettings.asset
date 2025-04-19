@@ -56,6 +56,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu/Leaderboard.unity
     guid: 8a46337671ec64ebfa20680a71b5f2b3
+  - enabled: 1
+    path: Assets/Scenes/Levels/LevelTwo Part 1.unity
+    guid: 38c9b737d2b6348acbe2bc3232e666a2
+  - enabled: 1
+    path: Assets/Scenes/Levels/LevelThree Part 1.unity
+    guid: abf92ce5b660d43f081c7c5c981d6da3
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/SceneOne.unity
+    guid: e06e90337e75a43ff9dc32d670c28a81
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/SceneTwo.unity
+    guid: 9f29e17e7f5ac4fbbb42828cc1fa565b
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/SceneThree.unity
+    guid: a0337253141f04175b6b506b9d64993e
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d60f1d3f4347f4ea6a2de3a861a06b4e, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 45c639efc6315448497b6b6187de6344, type: 2}

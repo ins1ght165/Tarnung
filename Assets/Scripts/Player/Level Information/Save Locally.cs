@@ -19,11 +19,7 @@ public class SaveLocally : MonoBehaviour
             PlayerPrefs.SetInt(starKey, stars);
             PlayerPrefs.SetFloat(timeKey, time);
             PlayerPrefs.Save();
-            Debug.Log("✅ Local progress updated: " + levelName);
-        }
-        else
-        {
-            Debug.Log("📉 Local score not better — keeping existing record for " + levelName);
+            
         }
     }
 
@@ -35,7 +31,7 @@ public class SaveLocally : MonoBehaviour
         return (stars, time);
     }
 
-    // Optional: check if any local score exists
+    // checking if we already have a saved score
     public static bool HasSavedProgress(string levelName)
     {
         return PlayerPrefs.HasKey(levelName + "_Stars") && PlayerPrefs.HasKey(levelName + "_Time");

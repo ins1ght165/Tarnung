@@ -53,7 +53,7 @@ public class StatDisplayment : MonoBehaviour
             }
             else if (response.Contains("HTTP Error") || response.Contains("Failed") || response.Contains("error"))
             {
-                Debug.LogWarning("⚠️ Online submission failed. Saving locally instead.");
+                Debug.LogWarning("Online submission failed. Saving locally instead.");
                 SaveLocally.SaveLevelProgress(levelName, starCount, finalTime);
             }
         }));
