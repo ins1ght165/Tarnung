@@ -54,7 +54,6 @@ public class LeaderboardManager : MonoBehaviour
 
     private void PopulateLeaderboard(LeaderboardEntry[] entries)
     {
-        // Clear old entries
         foreach (Transform child in leaderboardParent)
         {
             Destroy(child.gameObject);
@@ -72,7 +71,7 @@ public class LeaderboardManager : MonoBehaviour
     {
         var localProgress = SaveLocally.GetLevelProgress(levelName);
 
-        // Clear old entries
+  
         foreach (Transform child in leaderboardParent)
         {
             Destroy(child.gameObject);

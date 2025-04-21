@@ -35,12 +35,24 @@ public class RegisterManager : MonoBehaviour
         {
             if (!success || response.Contains("error"))
             {
-                resultText.text = "Register failed. Please check your internet connection.";
+                if (response.Contains("Username already exists"))
+                {
+                    resultText.text = "Username is already taken.";
+                }
+                else if (response.Contains("Email already exists"))
+                {
+                    resultText.text = "Email is already registered.";
+                }
+                else
+                {
+                    resultText.text = "Register failed. Please check your internet connection.";
+                }
+
                 Debug.LogError("Register failed: " + response);
             }
             else
             {
-                // ✅ Parse and save user info to PlayerPrefs
+                // Parse and save user info to PlayerPrefs
                 RegisteredUser user = JsonUtility.FromJson<RegisteredUser>(response);
                 PlayerPrefs.SetInt("userID", user.id);
                 PlayerPrefs.SetString("username", user.username);
