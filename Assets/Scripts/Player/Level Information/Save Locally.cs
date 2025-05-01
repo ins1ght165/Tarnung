@@ -13,13 +13,12 @@ public class SaveLocally : MonoBehaviour
         int previousStars = PlayerPrefs.GetInt(starKey, 0);
         float previousTime = PlayerPrefs.GetFloat(timeKey, float.MaxValue);
 
-        // Only overwrite if better: more stars, or same stars with faster time
-        if (stars > previousStars || (stars == previousStars && time < previousTime))
+        // Only overwrite if better: more stars, or same stars with faster time or if no record even exists to begin with
+        if (!HasSavedProgress(levelName) || stars > previousStars || (stars == previousStars && time < previousTime))
         {
             PlayerPrefs.SetInt(starKey, stars);
             PlayerPrefs.SetFloat(timeKey, time);
             PlayerPrefs.Save();
-            
         }
     }
 

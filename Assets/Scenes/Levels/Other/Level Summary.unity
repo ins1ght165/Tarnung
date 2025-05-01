@@ -401,8 +401,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 507891575}
-  - component: {fileID: 507891574}
-  - component: {fileID: 507891576}
+  - component: {fileID: 507891577}
+  - component: {fileID: 507891578}
   m_Layer: 0
   m_Name: LevelStats
   m_TagString: Untagged
@@ -410,26 +410,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &507891574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 507891573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c06d744ea2c442c9924c360e05f990b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeText: {fileID: 1931253498}
-  stars:
-  - {fileID: 399416528}
-  - {fileID: 2037163979}
-  - {fileID: 134954831}
-  fullStar: {fileID: 269256316, guid: 593a7ebe64e264ac6922cf479ad789be, type: 3}
-  emptyStar: {fileID: -1911885945, guid: 593a7ebe64e264ac6922cf479ad789be, type: 3}
-  newRecordText: {fileID: 1483486844}
 --- !u!4 &507891575
 Transform:
   m_ObjectHideFlags: 0
@@ -445,7 +425,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &507891576
+--- !u!114 &507891577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507891573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8212d011347c44073b11d97150c0907c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeText: {fileID: 1931253498}
+  stars:
+  - {fileID: 399416528}
+  - {fileID: 2037163979}
+  - {fileID: 134954831}
+  fullStar: {fileID: 269256316, guid: 593a7ebe64e264ac6922cf479ad789be, type: 3}
+  emptyStar: {fileID: -1911885945, guid: 593a7ebe64e264ac6922cf479ad789be, type: 3}
+  newRecordText: {fileID: 1483486844}
+--- !u!114 &507891578
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

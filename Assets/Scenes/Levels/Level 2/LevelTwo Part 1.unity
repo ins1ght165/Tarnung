@@ -491,17 +491,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e32c7187df252413e87490bdd2e72c9f, type: 3}
---- !u!114 &552469462 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7254354922195102583, guid: 858292d3f53444e1a80c5c33c02b9d03, type: 3}
-  m_PrefabInstance: {fileID: 1099311483}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 317febd5dbde94302bb98d6740676416, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &571146263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -721,11 +710,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 21828558345948990, guid: 858292d3f53444e1a80c5c33c02b9d03, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.63
+      value: -9.19
       objectReference: {fileID: 0}
     - target: {fileID: 21828558345948990, guid: 858292d3f53444e1a80c5c33c02b9d03, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.67
+      value: 8.4
       objectReference: {fileID: 0}
     - target: {fileID: 21828558345948990, guid: 858292d3f53444e1a80c5c33c02b9d03, type: 3}
       propertyPath: m_LocalPosition.z
@@ -763,11 +752,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: Snake
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7254354922195102583, guid: 858292d3f53444e1a80c5c33c02b9d03, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7256972302285290834, guid: 858292d3f53444e1a80c5c33c02b9d03, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1099311485}
   m_SourcePrefab: {fileID: 100100000, guid: 858292d3f53444e1a80c5c33c02b9d03, type: 3}
+--- !u!1 &1099311484 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7256972302285290834, guid: 858292d3f53444e1a80c5c33c02b9d03, type: 3}
+  m_PrefabInstance: {fileID: 1099311483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1099311485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099311484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3980845421914508860b5d068a4a5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1227255900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,11 +1876,11 @@ PrefabInstance:
     - target: {fileID: 735610283748629461, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 552469462}
+      objectReference: {fileID: 1099311485}
     - target: {fileID: 735610283748629461, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 552469462}
+      objectReference: {fileID: 1099311485}
     - target: {fileID: 735610283748629461, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PressRight
@@ -1879,14 +1889,22 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ReleaseRight
       objectReference: {fileID: 0}
+    - target: {fileID: 735610283748629461, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovementView, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 735610283748629461, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovementView, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 2604049778746305827, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 552469462}
+      objectReference: {fileID: 1099311485}
     - target: {fileID: 2604049778746305827, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 552469462}
+      objectReference: {fileID: 1099311485}
     - target: {fileID: 2604049778746305827, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PressDown
@@ -1895,14 +1913,22 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ReleaseDown
       objectReference: {fileID: 0}
+    - target: {fileID: 2604049778746305827, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovementView, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2604049778746305827, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovementView, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 4196669648767959165, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 552469462}
+      objectReference: {fileID: 1099311485}
     - target: {fileID: 4196669648767959165, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 552469462}
+      objectReference: {fileID: 1099311485}
     - target: {fileID: 4196669648767959165, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PressLeft
@@ -1910,6 +1936,14 @@ PrefabInstance:
     - target: {fileID: 4196669648767959165, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ReleaseLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196669648767959165, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovementView, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4196669648767959165, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovementView, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8244678828092458163, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Name
@@ -1998,11 +2032,11 @@ PrefabInstance:
     - target: {fileID: 9203320465227135944, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 552469462}
+      objectReference: {fileID: 1099311485}
     - target: {fileID: 9203320465227135944, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 552469462}
+      objectReference: {fileID: 1099311485}
     - target: {fileID: 9203320465227135944, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: PressUp
@@ -2010,6 +2044,14 @@ PrefabInstance:
     - target: {fileID: 9203320465227135944, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: ReleaseUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9203320465227135944, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovementView, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 9203320465227135944, guid: 65712bfadffc14951a8dc2b694b01cc6, type: 3}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlayerMovementView, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

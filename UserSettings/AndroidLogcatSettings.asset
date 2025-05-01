@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "RFCW105WRAJ",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 12848,
+        "processId": 4616,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -30,6 +30,12 @@
             "deviceId": "RFCW105WRAJ",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 12848,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCW105WRAJ",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 4616,
             "exited": false
         }
     ],

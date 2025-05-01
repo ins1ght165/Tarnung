@@ -103,7 +103,7 @@ public class NetworkManager : MonoBehaviour
         public string email;
     }
 
-    public IEnumerator GetLeaderboard(string levelName, Action<LeaderboardManager.LeaderboardEntry[]> callback)
+    public IEnumerator GetLeaderboard(string levelName, Action<LeaderboardEntry[]> callback)
     {
         string url = $"{serverUrl}/leaderboard/{levelName}";
         using (UnityWebRequest request = UnityWebRequest.Get(url))
@@ -119,7 +119,7 @@ public class NetworkManager : MonoBehaviour
             else
             {
                 string wrappedJson = "{\"entries\":" + request.downloadHandler.text + "}";
-                LeaderboardManager.LeaderboardList list = JsonUtility.FromJson<LeaderboardManager.LeaderboardList>(wrappedJson);
+                LeaderboardList list = JsonUtility.FromJson<LeaderboardList>(wrappedJson);
                 callback(list.entries);
             }
         }

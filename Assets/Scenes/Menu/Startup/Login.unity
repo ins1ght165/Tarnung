@@ -596,7 +596,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColor: {r: 0.7058824, g: 0.40392157, b: 0.0627451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -672,14 +672,14 @@ RectTransform:
   m_GameObject: {fileID: 290243865}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 9.883471, y: 4.681644, z: 4.0584}
+  m_LocalScale: {x: 8.647839, y: 4.681644, z: 4.0584}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 56126884}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.788504, y: 340.3028}
+  m_AnchoredPosition: {x: -1939, y: 434}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &452512370
@@ -1281,9 +1281,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1162409433}
-        m_TargetAssemblyTypeName: LoginManager, Assembly-CSharp
-        m_MethodName: Login
+      - m_Target: {fileID: 1162409435}
+        m_TargetAssemblyTypeName: LoginView, Assembly-CSharp
+        m_MethodName: OnLoginButtonPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1650,8 +1650,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1162409430}
   - component: {fileID: 1162409432}
-  - component: {fileID: 1162409433}
   - component: {fileID: 1162409434}
+  - component: {fileID: 1162409435}
   m_Layer: 0
   m_Name: Auth
   m_TagString: Untagged
@@ -1686,21 +1686,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d3233c21ab4a44d1899b0ba5d4d331b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1162409433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1162409428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f315b55fe209246c4898f5fbf3adbbe9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  emailOrUsernameInput: {fileID: 1320230351}
-  passwordInput: {fileID: 1143993444}
-  resultText: {fileID: 290243866}
 --- !u!114 &1162409434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1713,6 +1698,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7636ffaedcdb1481997bad8f32ae72cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1162409435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162409428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88fdddde4633a4355b2bb7147bd0489d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emailOrUsernameInput: {fileID: 1320230351}
+  passwordInput: {fileID: 1143993444}
+  resultText: {fileID: 290243866}
 --- !u!1 &1320230349
 GameObject:
   m_ObjectHideFlags: 0
