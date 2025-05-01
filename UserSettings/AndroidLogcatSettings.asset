@@ -1,13 +1,44 @@
 {
-    "m_SelectedDeviceId": "",
+    "m_SelectedDeviceId": "RFCW105WRAJ",
     "m_SelectedProcess": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "RFCW105WRAJ",
+        "name": "com.DefaultCompany.com.unity.template.mobile2D",
+        "processId": 4616,
         "exited": false
     },
     "m_SelectedPriority": 0,
-    "m_KnownProcessesForSerialization": [],
+    "m_KnownProcessesForSerialization": [
+        {
+            "deviceId": "RFCW105WRAJ",
+            "name": "com.sec.android.app.launcher",
+            "processId": 3745,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCW105WRAJ",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 9838,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCW105WRAJ",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 7076,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCW105WRAJ",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 12848,
+            "exited": false
+        },
+        {
+            "deviceId": "RFCW105WRAJ",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 4616,
+            "exited": false
+        }
+    ],
     "m_Tags": {
         "m_Entries": [
             {
@@ -45,8 +76,19 @@
         "Height": 0.0
     },
     "m_MemoryViewerState": {
-        "MemoryWindowWidth": 0.0,
-        "MemoryTypeEnabled": [],
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
         "MemoryGroup": 2,
         "AutoCapture": true
     },

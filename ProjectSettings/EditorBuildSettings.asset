@@ -9,44 +9,72 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Menu/Start Screen.unity
+    path: Assets/Scenes/Menu/Startup/Start Screen.unity
     guid: 3884d4c6690a64c5ab87a23b506e3250
   - enabled: 1
-    path: Assets/Scenes/Menu/Login.unity
+    path: Assets/Scenes/Menu/Startup/Login.unity
     guid: 7c7646d192cd24b2ab86c8c703ada5da
   - enabled: 1
-    path: Assets/Scenes/Levels/LevelOne.unity
+    path: Assets/Scenes/Levels/Level 1/LevelOne.unity
     guid: c2be75f7a025b49f28ec61964c1f5bba
   - enabled: 1
-    path: Assets/Scenes/Levels/Game Over.unity
+    path: Assets/Scenes/Levels/Other/Game Over.unity
     guid: 7d20991397c474c17be18cc822d58c49
   - enabled: 1
-    path: Assets/Scenes/Levels/Level Summary.unity
+    path: Assets/Scenes/Levels/Other/Level Summary.unity
     guid: 4ea957282d0744152b33964b608f7722
   - enabled: 1
-    path: Assets/Scenes/Menu/Level Select.unity
+    path: Assets/Scenes/Menu/Main Menu/Level Select.unity
     guid: fb3d99d5b622c4dbf94430d52436bb6d
   - enabled: 1
-    path: Assets/Scenes/Menu/Main Menu.unity
+    path: Assets/Scenes/Menu/Main Menu/Main Menu.unity
     guid: 9919c6d3d994f4626b32bf63780ff9ce
   - enabled: 1
-    path: Assets/Scenes/Menu/Settings.unity
+    path: Assets/Scenes/Menu/Main Menu/Settings.unity
     guid: 415538fab50de4782a8874b614087711
   - enabled: 1
-    path: Assets/Scenes/Levels/LevelTwo.unity
+    path: Assets/Scenes/Levels/Level 2/LevelTwo.unity
     guid: 76dbbd45c79fb4784aac9839d0ba0513
   - enabled: 1
-    path: Assets/Scenes/Levels/LevelThree.unity
+    path: Assets/Scenes/Levels/Level 3/LevelThree.unity
     guid: 4a5b8e091b300441c8f37648ce30d1fd
   - enabled: 1
-    path: Assets/Scenes/Levels/Suit Room.unity
+    path: Assets/Scenes/Levels/Level 2/Suit Room.unity
     guid: d8d219590ca3643b4b88ead4580cdcf5
   - enabled: 1
-    path: Assets/Scenes/Levels/Final.unity
+    path: Assets/Scenes/Levels/Level 4/Final.unity
     guid: 6b01fa3c6fffa4e7d868c125bcd40227
   - enabled: 1
-    path: Assets/Scenes/Levels/Key Room.unity
+    path: Assets/Scenes/Levels/Level 3/Key Room.unity
     guid: 2fe00830ca0c84db48febc378700990a
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/Intro Cutscene.unity
+    guid: ac7893b45af614edeaa48ca77b64f0b0
+  - enabled: 1
+    path: Assets/Scenes/Menu/Startup/Signup.unity
+    guid: 48d6e3008fde348a7b6df4684180add7
+  - enabled: 1
+    path: Assets/Scenes/Menu/Main Menu/Leaderboard.unity
+    guid: 8a46337671ec64ebfa20680a71b5f2b3
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2/LevelTwo Part 1.unity
+    guid: 38c9b737d2b6348acbe2bc3232e666a2
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 3/LevelThree Part 1.unity
+    guid: abf92ce5b660d43f081c7c5c981d6da3
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/SceneOne.unity
+    guid: e06e90337e75a43ff9dc32d670c28a81
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/SceneTwo.unity
+    guid: 9f29e17e7f5ac4fbbb42828cc1fa565b
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/SceneThree.unity
+    guid: a0337253141f04175b6b506b9d64993e
+  - enabled: 1
+    path: Assets/Scenes/Cutscene/FinalScene.unity
+    guid: 801e1eeda27664db7a8eba4b8c446407
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: d60f1d3f4347f4ea6a2de3a861a06b4e, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 57638c8f974dc4dc8800d30a9c283b0a, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 45c639efc6315448497b6b6187de6344, type: 2}

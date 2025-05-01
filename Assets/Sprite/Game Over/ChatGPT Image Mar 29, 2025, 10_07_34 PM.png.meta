@@ -126,10 +126,10 @@ TextureImporter:
       name: ChatGPT Image Mar 29, 2025, 10_07_34 PM_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1024
-        height: 1024
+        x: 139
+        y: 109
+        width: 747
+        height: 173
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,6 +147,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image Mar 29, 2025, 10_07_34 PM_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 547
+        width: 748
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb94056007bb455290008e6746f778d
+      internalID: 1169787508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChatGPT Image Mar 29, 2025, 10_07_34 PM_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 110
+        width: 747
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100bbe825b3cd4ccea958c75834c9dad
+      internalID: 149643206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -159,6 +201,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       ChatGPT Image Mar 29, 2025, 10_07_34 PM_0: 405017183
+      ChatGPT Image Mar 29, 2025, 10_07_34 PM_1: 1169787508
+      ChatGPT Image Mar 29, 2025, 10_07_34 PM_2: 149643206
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
